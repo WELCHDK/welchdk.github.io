@@ -1,0 +1,82 @@
+.container{background-color:black}
+		@media screen and (min-width: 0px) and (max-width: 359px) and (orientation: portrait) {
+.container{width: 330px; padding-bottom:10px; margin-bottom:10px}
+			 .container2{align:left; width:300px; margin:auto}
+			.container3{align:left; width:300px; margin:auto}
+			.img-responsive{height:157.34px; width:235.67px; padding:10px; padding-bottom:10px; }
+	
+			.img{opacity:.6}
+			
+			/*#smorgphone{height:30px; width:80px} 
+			#transphone{height:30px; width:80px}
+			#netflixphone{height:30px; width:80px}
+			#twizzlersphone{height:30px; width:75px}*/
+		}	
+		@media screen and (min-width: 360px)and (max-width:767px) and (orientation: landscape) {
+			 .container2{align:center; width:400px; margin:auto}
+			.container3{align:left; width:400px; margin:auto}
+			.img-responsive{height:236px; width:303.5px; padding:10px;} 
+				.partners{align:center}
+			.img{opacity:.6}
+		
+		
+		/*#smorgphone{height:30px; width:80px} 
+			#transphone{height:30px; width:80px}
+			#netflixphone{height:30px; width:80px}
+			#twizzlersphone{height:30px; width:75px}*/
+		}
+	
+		@media screen and (min-width: 768px) {
+   .container2{align:center; width:900px; margin:auto }
+			.container3{align:left; width:900px; margin:auto}
+			.img-responsive{height:236px; width:303.5px; padding:10px; opacity:1; filter: blur(0px);} 
+				.partners{align:center}
+			/*#smorg{height:60px; width:160px}
+	 #trans{height:60px; width:160px}
+	 #netfilx{height:60px; width:100px}
+	 #trans{height:60px; width:150px}*/
+		}
+		@media screen and (min-width: 992px) {
+   .container2{align:center; width:900px; margin:auto}
+			.container3{align:left; width:900px; margin:auto}
+			.img-responsive{height:236px; width:303.5px; padding:10px; opacity:1; filter: blur(0px);} 
+				.partners{align:center}
+			/*#smorg{height:60px; width:160px}
+	 #trans{height:60px; width:80px}
+	 #netfilx{height:60px; width:100px}
+	 #trans{height:60px; width:150px}*/
+		}
+		@media screen and (min-width: 1200px) {
+    .container2{align:center; width: 1200px; justify-content:center; margin:auto}
+			.container3{align:center; width: 1200px; justify-content:center; margin:auto}
+			.img-responsive{height:236px; width:303.5px; padding:10px;opacity:1; filter: blur(0px);} 
+			.partners{align:center}
+			
+			/*#smorg{height:60px; width:160px}
+	 #trans{height:60px; width:80px}
+	 #netfilx{height:60px; width:100px}
+	 #trans{height:60px; width:150px}
+			
+    }
+		
+	
+/*.img-responsive{height:472px; width:707px}*/
+		.media-object{height:60px; }
+		/*.media-object2{height:60px; }*/
+		.container2{margin-top: 25px}
+		/*#smorgphone{height:30px; width:80px} 
+			#transphone{height:30px; width:80px}
+			#netflixphone{height:30px; width:80px}
+			#twizzlersphone{height:30px; width:75px}*/
+	
+			hr{width: 80%; height: 3px; display: block; margin: 0 auto; border: none; box-shadow: 1px 1px 2px #0e0e0e; background-color: #898989"}
+				a:hover{padding: 5px; text-shadow: black; }
+		a{color: #89CFF0 !important; padding: 5px; text-shadow: black; }
+				
+			
+				p {margin-top:-175px; color:white; opacity: 1 !important}
+				h4{margin-top:-175px}
+				
+				
+				
+	

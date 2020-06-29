@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Great+Vibes|Lobster|Yanone+Kaffeesatz');
+		body{background-color:white; color:white; }
+	.container{background color: black}
+		
+	.fa {
+  font-size: 25px;padding: 5px; color: #89CFF0 !important;}
+		a{padding: 5px; text-shadow: black; }
+		a:hover{color: #89CFF0 !important; padding: 5px; text-shadow: black; }
+
+		
+		
+		
+		
+		
+		
+		@media (min-width: 0px)and (max-width: 359px) {
+			.container{width: 330px; height:750px; padding-left:15px; margin-left: auto; text-align: center;}	
+p{text-align:center;}
+			.animation{width:250px; height:125px; align:center; margin-top:5%;margin-bottom: 4%; margin-left:auto;}
+			.jumbotron{height:270px; margin-top:-5%}
+			#twit{col-xs-4 col-xs-offset-2}
+			#face{col-xs-4 col-xs-offset-0}
+			#home{color:white; }
+			#gallery{color:white}
+			#registration{color:white}
+}
+
+		
+		@media (min-width: 359px)and (max-width: 767px) {
+				.container{width: 330px; height:750px; padding-left:15px; margin-left: auto; text-align: center;}	
+p{text-align:center;}
+			.animation{width:250px; height:125px; align:center; margin-top:5%;margin-bottom: 4%; margin-left:auto;}
+			.jumbotron{height:270px; margin-top:-5%}
+			#twit{col-xs-4 col-xs-offset-2}
+			#face{col-xs-4 col-xs-offset-0}
+			#home{color:white; }
+			#gallery{color:white}
+			#registration{color:white}
+}
+
+
+			
+			
+	
+	@media (min-width: 768px) {	
+		
+	.container{width: 600px; height: 650px; margin-left: auto; text-align:center}
+p{text-align:center;}	
+		.animation{width:450px; height:150px; align:center; margin-top:-1.75%; margin-bottom: .75%; margin-left:auto;}
+		.jumbotron{height:260px;}
+		#twit{col-sm-offset-2 col-sm-4}
+		#face{col-sm-offset-0 col-sm-4}
+		#time{margin-top: 1.95%}
+		
+}
+
+	@media (min-width: 992px) {
+.container{width: 800px; height:650px; margin-left:auto; text-align:center}
+		.animation{width:650px; height:150px; align:center; margin-top:.5%; margin-bottom: 1.2%; margin-left:auto;}
+p{text-align:center;}	
+		.jumbotron{height:260px;}
+		#twit{margin-top:-1%; }
+		#face{margin-top:-1%}
+		#time{margin-top: 1.95%}
+		
+
+}
+	@media (min-width: 1200px) {
+    .text{
+        width: 800px;
+		height: 380px;}
+.container{width: 1200px; height:750px; margin-left:auto; text-align:center}
+		.animation{width:1050px; height:200px; align:center; margin-top: 1%; margin-bottom:1%; margin-left:auto;}
+p{text-align:center;}
+		.jumbotron{height:350px;}
+		#twit{margin-top:-.5%}
+		#face{margin-top:-.5%}
+		#time{margin-top: 1.25%}
+		}
+
+			.container{background-color:black; color:white}	
+			p{background-color: black;
+									   color: white;
+	
+			}
+				.btn {background-color:  black;
+					  color: white;
+			}
+				
+		p{font-family: 'Yanone Kaffeesatz', sans-serif;}
+		
+		*{align:center}
+		.jumbotron{align:center; background-color:whitesmoke; 
+			background-image: "firework.gif";}
+		
+		
+		
+		
+		
