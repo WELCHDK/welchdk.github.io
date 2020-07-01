@@ -1,0 +1,126 @@
+	@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Great+Vibes|Lobster|Yanone+Kaffeesatz');
+		
+		customizer{font-weight:bold;
+			text-align:center;}
+	@media screen and (min-width: 0px) and (max-width: 359px) and (orientation: portrait) {
+		.container2{width:330px;
+			margin:auto;
+background-color:black;
+			color:white;}
+		
+		#resize	{margin:auto}
+		.postersize
+		{width: 180px; height: 267px;}
+	
+		/*img{margin-left:25%}*/
+			
+		}	
+@media screen and (min-width: 360px)and (max-width:767px) and (orientation: landscape) {
+		.container2{width:550px;
+		margin:auto;
+background-color:black;
+			color:white}
+		#resize	{margin:auto}
+	.postersize
+	{width: 180px; height: 267px;}}
+	
+	@media (min-width: 768px) {
+    .container2 {
+         width: 750px;
+		margin:auto;
+background-color:black;
+		color:white;}
+		.postersize
+		{width: 360px; height: 524px;}
+#resize	{margin:auto}
+
+}
+	@media screen and (min-width: 992px) {
+    .container2 {
+        width: 950px;
+    	margin: auto;
+background-color:black;
+		color:white;}
+#resize	{margin:auto}
+
+}
+	@media screen and (min-width: 1200px) {
+    .container2 {
+        width: 1375px;
+		margin:auto;
+background-color:black;
+		color:white;}
+#resize	{margin:auto}
+
+    
+}
+		/*.table {margin-top:100px;}*/
+		.container2 {padding: 15px}
+		
+		p{font-family: 'Yanone Kaffeesatz', sans-serif;}
+						*{color:white;}
+						
+
+			
+	@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Great+Vibes|Lobster|Yanone+Kaffeesatz');
+	@media screen and (min-width: 0px) and (max-width: 359px) and (orientation: portrait) {
+     .container{
+        width:300px;
+         height: 400px;
+
+         color:white;
+		 
+		  
+    }.container4{align:center; width: 265px; margin-left:auto;}
+}
+	@media screen and (min-width: 360px) and (max-width: 767px) and (orientation: landscape) {
+     .container{
+        width:300px;
+         height: 400px;
+
+		 
+         color:white;	  
+    }
+		 .container4{margin-left: auto;}
+}
+ @media screen and (min-width: 768px) {
+     .container {
+		 margin-left:auto;align:center;
+         width: 330px;
+         height: 350px;
+         color:white;
+		
+    }
+	 .container4{align:center; width: 315px; margin:auto;}
+}
+ @media screen and (min-width: 992px) {
+     .container { align:center;
+         width: 950px;
+         height: 350px;
+
+         color:white;
+		
+    }
+	 .container4{width:450px; margin-left: auto}
+}
+ @media screen and (min-width: 1200px) {
+     .container {
+         width: 687.5px;
+         height: 350px;
+color:white;
+	
+    }
+    .container4{width:600px;margin-left: auto}
+		}
+	 .btn {background-color:Orange;
+ 		color: white;
+		 font-family: 'Yanone Kaffeesatz', sans-serif;
+		font-size:1.5em;
+		margin-bottom: 2px;}
+						
+	.btn2 {background-color:black; color:white; font-family: 'Yanone Kaffeesatz', sans-serif;
+		font-size:1.5em;}
+	.btn3 {background-color:forestgreen; color:white; font-family: 'Yanone Kaffeesatz', sans-serif;
+		font-size:1.5em;}
+						*{align:center}
+	

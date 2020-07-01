@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 0px) and (max-width:359px){
+			.container5{width:330px; height: 400px;}
+		
+			.btn{margin-top:15%}
+			.civil{margin-top:35%}
+			.btn2{margin-top:15%}
+			p{padding:5px}
+			#logo{width:138.25px; height:73.415px;}
+			#brain{width:300px; height: 215px;  margin-top:17%; }
+		}
+		
+		@media (min-width: 359px) and (max-width:767px){
+			.container5{width:450px; height: 400px;}
+		
+			.btn{margin-top:15%}
+			.civil{margin-top:35%}
+			.btn2{margin-top:15%}
+			#logo{width:138.25px; height:73.415px;}
+			#brain{width:300px; height: 215px;  margin-top:10%; }
+		}
+		
+		
+		@media (min-width: 768px) {
+			.container5{width:592px; height: 720px;}
+			/*.container6{width:800px; height: 592px;}*/
+			.btn{margin-top:15%}
+			.civil{margin-top:35%}
+			.btn2{margin-top:15%}
+			#logo{width:276.5px; height:146.83px; }
+			#brain{width:450px; height: 322.5px;  margin-top:20%; }
+		}
+		
+		@media (min-width: 992px) {
+			.container5{width:1000px; height: 720px;}
+		
+		.btn{margin-top:15%}
+			.civil{margin-top:25%}
+			.btn2{margin-top:15%}
+			p{padding-left:85px; padding-right:85px}
+			#logo{width:276.5px; height:146.83px; }
+			#brain{width:600px; height: 430px;  margin-top:5%; }
+		}
+		
+		@media (min-width: 1200px) {
+			
+		.container5{width:1000px; height: 740px; margin-top:10%}
+		
+		.btn{margin-top:15%}
+			.civil{margin-top:25%}
+			.btn2{margin-top:15%}
+			p{padding-left:25px; padding-right:25px}
+			#logo{width:276.5px; height:146.83px; }
+			#brain{width:600px; height: 430px; margin-top:5%; }
+			/*#brain{width:900px; height: 645px; margin-top:2%; }*/
+			
+		}
+		
+		
+		.container5{background-color: black; }
+		
+		.btn{background-color: white; border-color: navy; color:navy}
+		.btn:hover{background-color: navy; border-color: white; color:white}
+		.btn2{background-color: white; border-color: navy; color:navy}
+		.btn2:hover{background-color: navy; border-color: white; color:white}
+			/*.btn3{background-color: white; border-color: white; color:black}*/
+		p{color:white; }
+		
+		
+		 .btn3{background-color:white; border-color: white; color:black}
+		 .btn3:hover{background-color: navy; border-color: white; color:white}
+		 
+		 #brain{display:block; z-index:2}
+		 
+		 

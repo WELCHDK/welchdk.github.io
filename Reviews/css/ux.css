@@ -1,0 +1,29 @@
+
+.gm-style .gm-style-iw {
+	background-color: #81cf8b;
+	background-color: black;
+	border: 2px solid white;
+}
+
+.gm-style .gm-style-iw:hover {
+	background-color: white;
+	padding: 20px;
+}
+
+
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #00aeef;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: gray; 
+	border-left: 2px solid white;
+	
+}
+

@@ -1,0 +1,174 @@
+	/*CSS Document*/
+	
+	
+	/*new beethoven.html and game over.html*/
+	@media (min-width: 0px)and (max-width: 359px) {
+			.container{ width: 300px; height:500px; padding-top:25% }
+				/*#beethoven{margin-top:15%}*/
+				.beethoven{margin-top:5%}
+				.new{margin-top:15%; font-size:35px  }
+				.back{padding-top:-15%; margin-top:-43%;font-size:35px}
+			.container2{ width: 300px; height:500px;}
+				#mozart{padding-top:17%} /*margin-top:15%; */
+			.container3{ width: 300px; height:400px; padding-top:10%}
+				#game{ padding-top:35%; margin-top:-10px} /*margin-top:15%;*/
+				#new{margin-top:8%;}
+				#back{margin-top:-50%; margin-top:-50%; }
+				
+				p{font-size:55px}
+			
+		}	
+		
+	@media (min-width: 359px)and (max-width: 767px) {
+			.container{ width: 500px; height:300px; margin-top:25%;  }
+				/*#beethoven{margin-top:15%}*/
+				.new{margin-top:10%; font-size:35px  }
+				.back{padding-top:-15%; margin-top:-30%;font-size:35px}
+			.container2{ width: 500px; height:300px;}
+				#mozart{padding-top:17%} /*margin-top:15%; */
+			.container3{ width: 500px; height:300px;}
+				#game{ padding-top:15%} /*margin-top:15%;*/
+				#new{margin-top:10%; }
+				#back{padding-top:-15%; margin-top:-35%; }
+				
+				p{font-size:75px;}
+		
+		}
+
+	@media (min-width: 768px) {		
+				.container{ width: 500px; height:700px; margin-top:25%; }
+				/*#beethoven{margin-top:15%}*/
+				.new{margin-top:5%; font-size:65px  }
+				.back{padding-top:-15%; margin-top:-35%; font-size:65px}
+			.container2{ width: 500px; height:700px;}
+				#mozart{padding-top:17%} /*margin-top:15%; {padding-top:2%} */
+			.container3{ width: 500px; height:700px;}
+				#game{ padding-top:55%} /*margin-top:15%;*/
+				#new{margin-top:10%; }
+				#back{padding-top:-15%; margin-top:-35%; }
+				
+				p{font-size:75px;}
+				
+	}
+
+	@media (min-width: 992px) {
+				.container{ width: 1000px; height:740px; margin-top:25%; padding-top:20% }
+				/*#beethoven{margin-top:15%}*/
+				.back{padding-top:15%; margin-top:-35%;font-size:65px}
+				.new{margin-top:10%; font-size:65px  }
+			.container2{ width: 1000px; height:740px;}
+				#mozart{padding-top:30%} /*margin-top:15%; */
+				#moz2{padding-top:5%}
+			.container3{ width: 1000px; height:740px;}
+				#game{ padding-top:30%} /*margin-top:15%;*/
+				#back{padding-top:15%; margin-top:-35%; }
+				#new{margin-top:10%; }
+				
+				p{font-size:75px}
+		
+		
+		}
+		
+	@media (min-width: 1200px) {
+			.container{ width: 1000px; height:740px; margin-top:25%; padding-top:20% }
+				/*#beethoven{margin-top:15%}*/
+				.back{padding-top:15%; margin-top:-35%;font-size:65px}
+				.new{margin-top:10%; font-size:65px  }
+			.container2{ width: 1000px; height:740px;}
+				#mozart{padding-top:30%} /*margin-top:15%; */
+				#moz2{padding-top:5%}
+			.container3{ width: 1000px; height:740px;}
+				#game{ padding-top:30%} /*margin-top:15%;*/
+				#back{padding-top:15%; margin-top:-35%; }
+				#new{margin-top:10%; }
+				
+				p{font-size:75px}
+		
+		}
+		
+			.container, .container2, .container3{margin:auto; text-align:center; 
+		   background-color:whitesmoke; color:black;
+		  
+		   }
+
+			p{font-family: 'Righteous', cursive; /*3*/
+
+		}
+		.container {
+			background-image: url('../images/sheet music.jpg');
+			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-size: cover;
+  			box-shadow: 2px 2px black;
+  			z-index:-1;
+  			
+  		}
+
+		.container2 {
+			background-image: url('../images/violin sheet.jpg');
+			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-size: cover;
+  			z-index:-1;
+		}
+/*p:hover{color:whitesmoke}*/
+			#back {color:whitesmoke; font-size:65px;
+			font-family: 'Monoton', cursive; /*1*/
+			opacity:0;
+		}
+			.back{color:whitesmoke;
+			font-family: 'Monoton', cursive; /*1*/
+			opacity:0;
+		}
+		
+
+			#back:hover{color:white; text-shadow: 2px 2px gray; opacity:1;}
+			.back:hover{color:white; text-shadow: 2px 2px gray; opacity:1;}
+			#new, .new{color:whitesmoke; font-size:65px;
+			font-family: 'Monoton', cursive; opacity:0;/*1*/
+
+		}
+			
+		
+
+			#new:hover, .new:hover{color:white; text-shadow: 2px 2px gray; opacity:1;}
+
+			#moz2{margin-top:-10%; color:whitesmoke; font-size:55px;
+			font-family: 'Monoton', cursive; opacity:0; /*1*/
+
+		}
+			#moz2:hover{color:white; text-shadow: 2px 2px gray; opacity:1;}
+body{background-color:black; overflow-y:hidden;}
+			#toggleButton {
+	background: transparent;
+	border: 3px black solid;
+	border-radius: 3px;
+	padding: 1px 5px;
+	font-size: 3.5em;
+	font-weight: bold;
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	transition: 0.5s ease-out;
+	color: white;
+	text-shadow:1px 2px black;
+	margin-bottom: -65px;
+	font-family: 'Tangerine', cursive;
+	z-index:99;
+
+	/*margin-top:3px; margin-bottom:-20px*/
+}
+
+#toggleButton:hover {
+	color: #fff;
+	background-color: black;
+	border-color: grey;
+	border-style: solid;
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: -5px;
+	z-index:99;
+	/*transform: scale(1.1);*/
+	cursor: pointer;
+}

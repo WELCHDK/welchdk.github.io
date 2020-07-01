@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Music Wars</title>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/index.css">
+      <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div id="infoModal">
+         <!-- Modal content -->
+         <div id="modal-content">
+            <span id="close">&times;</span>
+            <p><span class="info-heading"> Heading/Action buttons </span><br/>"Music Wars" heading turns green and attack/defend buttons appear when players encounter </p>
+            <!--<p><span class="info-heading"> Toggle action buttons </span><br/>Click on the "Music Wars" heading which will toggle the players' attack/defend buttons </p>-->
+            <p><span class="info-heading"> Reset the game </span><br/>Clicking on the "Music Wars" heading will reset the game</p>
+            <!--<ul id="game-elements">-->
+            <p><span class="info-heading">Game Elements</span> <br/>
+            <p id="weapon-info">
+               <!--<span id="weapon-heading"></span><br/>-->
+               <span id="weapon-heading">Weapons<br/></span>
+               Quarter note<span class="weapon-damage">10% damage</span><br/>
+               Eighth note <span class="weapon-damage">&nbsp;5% damage</span><br/>
+               Half note<span class="weapon-damage">20% damage</span><br/>
+               Whole note<span class="weapon-damage">40% damage</span><br/>
+            </p>
+            <span class="sub-heading"> Progress Bar <br/></span>
+            Bar changes color based on health percentage <br/>
+            Health value changes based on damage <br/>
+            Progress changes with health percentage
+            <br/>
+            <p class="other">When the block containing a weapon is passed over or landed on, <br/> the current weapon is placed in the new weapon's place.</p>
+            <p class="other-possible">When the block containing a player is clicked, <br/> the possible moves are shown.</p>
+            <p id="rules">
+               <span id="rules" class="info-heading">Game Rules</span><br/>
+               Players take turns moving. If one encounters the other, they have the option to attack or defend,<br/>
+               <!--and then they have the option to move to a new location.<br/>-->
+               If defend is chosen instead of attack, only 50% of the weapon's damage occurs.<br/>
+            <p id="warning">Think of it like music...Notes have value...Watch out for the <span><em>w</em><span>hole rests!</p>
+            </p>
+         </div>
+      </div>
+      <span id="info"><em>i</em></span>
+      <span>
+         <p id="toggleButton"> Music Wars </p>
+      </span>
+      <div id="table">
+         <div class="grid-container box"></div>
+         <div id="element"></div>
+         <div id="boardContainer"></div>
+      </div>
+      <div>
+      <div id="p1container" class="container">
+         <h1 id="playerOneTurn">Mozart</h1>
+         <div id="block"></div>
+         <div id="WASDmodal" class="modal">
+            <!-- Modal content -->
+            <div align="center" class="modal-content">
+               <!--<span class="close">&times;</span>-->
+               <button id="wKey" class="WASD">W</button>
+               <br/>
+               <button id="aKey" class="WASD">A</button>
+               <button id="sKey" class="WASD">S </button>
+               <button id="dKey" class="WASD">D</button>
+               <br/>
+            </div>
+         </div>
+         <div id="rest"> That was a w<span><i>hole</i>...</span></div>
+         <h1 id="playerOne">Mozart</h1>
+         <progress id="myProgress" value="100" max="100"></progress>
+         <ul id="weaponDisplay">
+            <li id="eighth">Eighth Note   </li>
+            <li id="quarter">Quarter Note    </li>
+            <li id="half">Half Note</li>
+            <li id="whole">Whole Note</li>
+         </ul>
+      </div>
+      <div id="p2container" class="container">
+         <h1 id="playerTwoTurn">Beethoven</h1>
+         <div id="block2"></div>
+         <div id="arrowKeysmodal" class="modal">
+            <!-- Modal content -->
+            <div align="center" class="modal-content">
+               <!-- <span class="close">&times;</span>-->
+               <button id="up" class="WASD">W</button>
+               <br/>
+               <button id="left" class="WASD">A</button>
+               <button id="down" class="WASD">S </button>
+               <button id="right" class="WASD">D</button>
+               <br/>
+            </div>
+         </div>
+         <div id="rest2"> That was a w<span><i>hole</i>...</span></div>
+         <h1 id="playerTwo">Beethoven</h1>
+         <progress id="myPro" value="100" max="100"></progress>
+         <ul id="weaponDisplay2">
+            <!--5px-->
+            <li id="enote">Eighth Note    </li>
+            <li id="qnote">Quarter Note      </li>
+            <li id="hnote">Half Note</li>
+            <li id="wnote">Whole Note</li>
+         </ul>
+      </div>
+      <script
+         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+         integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+         crossorigin="anonymous"></script>
+      <script src="js/index.js"></script>
+      <script src="js/position.js"></script>
+      <script src="js/multiToggle.js"></script>
+      <script src="js/progressMeter.js"></script>
+      <script src="js/weapons.js"></script>
+      <script src="js/fight.js"></script>
+   </body>
+</html>

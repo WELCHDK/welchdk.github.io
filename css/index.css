@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Great+Vibes|Lobster|Yanone+Kaffeesatz');
 		body{background-color:white; color:white; }
-	.container{background color: black}
+	.container{background-color: black}
 		
 	.fa {
   font-size: 25px;padding: 5px; color: #89CFF0 !important;}
@@ -20,7 +20,7 @@ p{text-align:center;}
 			.jumbotron{height:270px; margin-top:-5%}
 			#twit{col-xs-4 col-xs-offset-2}
 			#face{col-xs-4 col-xs-offset-0}
-			#home{color:white; }
+			#home{color: white; }
 			#gallery{color:white}
 			#registration{color:white}
 }
@@ -73,9 +73,13 @@ p{text-align:center;}
 		.animation{width:1050px; height:200px; align:center; margin-top: 1%; margin-bottom:1%; margin-left:auto;}
 p{text-align:center;}
 		.jumbotron{height:350px;}
-		#twit{margin-top:-.5%}
-		#face{margin-top:-.5%}
+		#twit{margin-top:-.25%}
+		#face{margin-top:-.25%}
+		#link{margin-top:-.25%}
 		#time{margin-top: 1.25%}
+		.form-group {
+			margin-top: 15%;
+		}
 		}
 
 			.container{background-color:black; color:white}	
