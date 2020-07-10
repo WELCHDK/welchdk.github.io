@@ -8,7 +8,7 @@ window.onload = function () {
 	}
 
 }
-const key = "";
+const key = "AIzaSyA-uoX06n_IgxRQxKcyHQ6Th2CIDqhLqxQ";
 var map, places, infoWindow;
 var markers = [];
 var autocomplete;
